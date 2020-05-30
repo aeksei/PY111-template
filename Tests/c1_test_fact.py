@@ -4,8 +4,8 @@ import Tasks.c1_fact as fact
 
 
 class MyTestCase(unittest.TestCase):
-	def test_fact_recursive(self):
-		self.assertEqual(math.factorial(7), fact.factorial_recursive(7), msg="Something gonna wrong...")
+    def test_fact_recursive(self):
+        self.assertEqual(math.factorial(7), fact.factorial_recursive(7), msg="Something gonna wrong...")
 
 	def test_fact_recursive_with_zero(self):
 		self.assertEqual(math.factorial(0), fact.factorial_recursive(0), msg="What is 0! ??")
@@ -34,4 +34,4 @@ class MyTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-	unittest.main()
+    unittest.main()
