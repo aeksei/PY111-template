@@ -1,6 +1,6 @@
 def factorial_recursive(n: int) -> int:
 	"""
-	Calculate factorial of number n (>= 0) in recursive way
+	Calculate factorial of integer number n (>= 0) in recursive way
 	:param n: int >= 0
 	:return: factorial of n
 	"""
@@ -10,7 +10,7 @@ def factorial_recursive(n: int) -> int:
 
 def factorial_iterative(n: int) -> int:
 	"""
-	Calculate factorial of number n (>= 0) in iterative way
+	Calculate factorial of integer number n (>= 0) in iterative way
 
 	:param n: int >= 0
 	:return: factorial of n
