@@ -26,7 +26,7 @@ class MyTestCase(unittest.TestCase):
 
 	def test_fact_iter_exc_negative(self):
 		with self.assertRaises(ValueError, msg="ValueError should be here..."):
-			fact.factorial_recursive(-1121)
+			fact.factorial_iterative(-1121)
 
 	def test_fact_iter_exc_float(self):
 		with self.assertRaises(ValueError, msg="ValueError should be here..."):
